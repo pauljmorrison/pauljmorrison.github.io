@@ -11,7 +11,7 @@ layout: feed
 	<id>http://pauljmorrison.github.io/blog</id>
 	<author>
 		<name>Paul Morrison</name>
-		<email>morrisonpaul.02@gmail.com</email>
+		<email>pauljmorrison@outlook.com</email>
 	</author>
 
 	{% for post in site.posts %}
