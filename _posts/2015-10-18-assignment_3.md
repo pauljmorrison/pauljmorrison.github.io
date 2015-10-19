@@ -150,7 +150,7 @@ in the central longitudes.
     plt.xlabel('Latitude [deg]')
     plt.ylabel('Count')
 
-![](2015-10-18-assignment_3/week3_latitude.png)
+![Latitude]({{ pauljmorrison.github.io }}/assets/week3_latitude.png)
 
     plt.figure()
     latlong_data['LONGITUDE_CIRCLE_IMAGE'].plot(kind='hist',bins=c6_bins)
@@ -158,3 +158,5 @@ in the central longitudes.
     plt.ylabel('Count')
 
     plt.show()
+
+![Longitude]({{ pauljmorrison.github.io }}/assets/week3_longitude.png)
