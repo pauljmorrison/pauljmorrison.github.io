@@ -215,7 +215,7 @@ The linear regression results for the response versus explanatory variable is ac
     [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
     
 
-The $R^2$ is 0.648 indicating a strong correlation between the explanatory and response variable. The Intercept coefficient is zero which is expected since the response variable was re-centered on zero. The explanatory variable has a coefficient of 23 and a p-value of 0.000 which indicates this coefficient is statistically significant. The results of linear regression indicate that crater rim diameter is postively and significantly correlated with crater depth.
+The R^2 is 0.648 indicating a strong correlation between the explanatory and response variable. The Intercept coefficient is zero which is expected since the response variable was re-centered on zero. The explanatory variable has a coefficient of 23 and a p-value of 0.000 which indicates this coefficient is statistically significant. The results of linear regression indicate that crater rim diameter is postively and significantly correlated with crater depth.
 
 
     
