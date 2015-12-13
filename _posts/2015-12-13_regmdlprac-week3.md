@@ -193,7 +193,7 @@ The quantitative response and explanatory variables are centered so that the mea
 
 
 
-![png]({{ pauljmorrison.github.io }}/assets/C3W3_output_11_1.png)
+![Out1]({{ pauljmorrison.github.io }}/assets/C3W3_output_11_1.png)
 
 
 To verify that the re-centering is successful, the mean values of the re-centered variables should be very close to zero.
@@ -405,7 +405,7 @@ This normalized residual plot uncovers any missing trends in the fit. If this pl
 
 
 
-![png]({{ pauljmorrison.github.io }}/assets/C3W3_output_25_1.png)
+![out2]({{ pauljmorrison.github.io }}/assets/C3W3_output_25_1.png)
 
 
 The normalized residuals appear centered around zero and have the expected distribution with very few outliers beyond the three sigma boundary. This indicates our regression is successful and captures the explanatory and response relationship.
@@ -419,7 +419,7 @@ The Q-Q plot is commonly used to visually assess the fit residuals for normality
     fig4=sm.qqplot(reg3.resid, line='r')
 
 
-![png]({{ pauljmorrison.github.io }}/assets/C3W3_output_28_0.png)
+![out3]({{ pauljmorrison.github.io }}/assets/C3W3_output_28_0.png)
 
 
 The departure of the fit residuals from the extremes of the red line indicate the tails of the residuals are not perfectly normal. This can be explained by the extreme variability in the dataset and uncertainty in the depth and diameter measurements themselves. 
@@ -432,7 +432,7 @@ The departure of the fit residuals from the extremes of the red line indicate th
     fig3=sm.graphics.influence_plot(reg3, size=8)
 
 
-![png]({{ pauljmorrison.github.io }}/assets/C3W3_output_31_0.png)
+![out4]({{ pauljmorrison.github.io }}/assets/C3W3_output_31_0.png)
 
 
 The leverage plot shows any outliers and their relative impact on the regression coefficients. Any highlighted points should be closely inspected in the original dataset. For this regression, point 80196 is not an outlier (y-axis) but does have a significant impact on the regression (x-axis).
