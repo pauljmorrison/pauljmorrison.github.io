@@ -15,12 +15,16 @@ Report whether or not your results supported your hypothesis for the association
 Discuss whether or not there was evidence of confounding for the association between your primary explanatory and response variable.
 
 Generate regression diagnostic plots and write a few sentences describing what these plots tell you about your regression model in terms of the distribution of the residuals, model fit, influential observations, and outliers.
+
 1. q-q plot
 2. standardized residuals for all observations
 3. leverage plot
 
 Include your multiple regression output in your blog.
 
+
+## Data Preparation for this Assignment
+To prepare the data for this assignment, the dataset is restricted to to contain only named craters with primary and secondary ejecta classifications.
 
     %matplotlib inline
     import pandas as pd
@@ -35,12 +39,6 @@ Include your multiple regression output in your blog.
     
     #upper-case all DataFrame column names
     data.columns = map(str.upper,data.columns)
-
-
-
-## Data Preparation for this Assignment
-To prepare the data for this assignment, the dataset is restricted to to contain only named craters with primary and secondary ejecta classifications.
-
 
     data = data[~pd.isnull(data['CRATER_NAME'])]
     data = data[~pd.isnull(data['MORPHOLOGY_EJECTA_1'])]
