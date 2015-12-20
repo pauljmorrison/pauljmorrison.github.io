@@ -18,6 +18,8 @@ Write a blog entry that summarize in a few sentences:
 
 
 
+## Data Preparation for this Assignment
+
     %matplotlib inline
     import pandas as pd
     import numpy as np
@@ -32,9 +34,6 @@ Write a blog entry that summarize in a few sentences:
     #upper-case all DataFrame column names
     data.columns = map(str.upper,data.columns)
 
-
-
-## Data Preparation for this Assignment
 To prepare the data for this assignment, the dataset is restricted to to contain only named craters with primary and secondary ejecta classifications.
 
 
