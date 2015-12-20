@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Coursera - Regression Modeling in Practice - Assignment 4"
+date: 2015-12-20
+---
 
 # Test A Logistic Regression Model
 
