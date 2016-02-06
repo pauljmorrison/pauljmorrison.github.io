@@ -223,8 +223,8 @@ To code the binary variable, a new parameter `SLERS_c` is created for the `SLERS
 
 
 
-![png]({{ pauljmorrison.github.io }}/assets/C4W1_output_17_0.png =400x)
-
+![png]({{ pauljmorrison.github.io }}/assets/C4W1_output_17_0.png)
+<img src="{{ pauljmorrison.github.io }}/assets/C4W1_output_17_0.png" width="400" />
 
 
 The decision tree shows the first split occurring on the crater diameter of 15.46 meters. Following this split, subsequent splits are crater depth, latitude, and longitude. The confusion matrix shows the tree correctly predicted 202 (190+12, down the matrix diagonal) of 237 samples in the test set for an accuracy score of 85.2%.
