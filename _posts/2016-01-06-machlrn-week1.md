@@ -223,7 +223,6 @@ To code the binary variable, a new parameter `SLERS_c` is created for the `SLERS
 
 
 
-[//] # ![png]({{ pauljmorrison.github.io }}/assets/C4W1_output_17_0.png)
 <img src="{{ pauljmorrison.github.io }}/assets/C4W1_output_17_0.png" width="800" />
 
 
