@@ -3,6 +3,7 @@ layout: post
 title: "Coursera - Machine Learning for Data Analysis - Assignment 3"
 date: 2016-02-18
 ---
+
 # Running a Lasso Regression
 
 ### Assignment Description
